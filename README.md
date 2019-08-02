@@ -1,4 +1,4 @@
-# Upload John Deere Canary Tokens alerts to Security Hub
+# Upload your own/company Canary Tokens alerts to Security Hub
 
 # What Are Canary Tokens?
 
@@ -6,7 +6,7 @@ Canary tokens are a quick, painless way to help defenders discover they've been 
 
 # How can I get my token?
 
-Visit the John Deere Canary Tokens console and create your own token, there are plenty of option to choose from, word documents, pdf's, AWS Keys, DNS, etc. All of these appear to be legit, but they're just tokens. Everytime someone triggers your canary (they way they are triggered depends on your token type) you will get all the necessary details to determine the attacker's info or if it is just a false positive on the console and on security hub (after deploying this repo). Additionaly, you get one file format options to download your canary's data: .json this is what this lambda function sends to security hub when the token is triggered.
+Visit your Canary Tokens console and create your own token, there are plenty of option to choose from, word documents, pdf's, AWS Keys, DNS, etc. All of these appear to be legit, but they're just tokens. Everytime someone triggers your canary (they way they are triggered depends on your token type) you will get all the necessary details to determine the attacker's info or if it is just a false positive on the console and on security hub (after deploying this repo). Additionaly, you get one file format options to download your canary's data: .json this is what this lambda function sends to security hub when the token is triggered.
 
 ## How to deploy this repo into Lambda
 
