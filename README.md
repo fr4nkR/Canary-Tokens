@@ -18,4 +18,4 @@ Visit your Canary Tokens console and create your own token, there are plenty of 
 
 6 - You have to specify the S3 bucket where you want to keep your .json files if you wish so. It will use a unique file format so your file's name don't repeat. If you don't want to save any .json files into your S3 buckets simply comment out the lines where this is specified.
 
-6 - That is it! If you carefully followed all the steps your lambda function will import your triggered token information and who triggered directly into Security Hub and this will forward it to Splunk.
+6 - That is it! If you carefully followed all the steps your lambda function will import your triggered token information and who triggered directly into Security Hub and from there it will go to any other monitoring consoles that you might use!
